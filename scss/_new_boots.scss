@@ -1,0 +1,22 @@
+
+$theme-colors: (
+    "black": #000,
+    "grey": #999,
+    "green_bc": #479F10,
+    "orange_bc":  #F2AF38,
+    "yellow_wbc":  #FFC035,
+    "orange_wbc":  #FF8339,
+    
+);
+
+
+$enable-responsive-font-sizes: true;
+$enable-gradients: true;
+
+body { 
+    font-family: SF UI Display Light !important;
+    font-size: 16px;
+    height: 100%;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
