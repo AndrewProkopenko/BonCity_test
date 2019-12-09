@@ -1,0 +1,57 @@
+.second-page-bg {
+    margin: 0;
+    background-image: url(../img/second-page-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1150px;
+  
+    padding-top: 150px;
+    h2 { 
+        font-family: inglobal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 69px;
+        letter-spacing: 0.06em;
+        color: #000000;
+    }
+}
+.btn-second-page { 
+    margin: 100px auto;
+}     
+#how-it-work { 
+    z-index: 2;
+    > div { 
+        overflow-y: visible !important;
+        width: 33.33% !important ;
+        position: relative;
+        img { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: 125px;
+            max-height: 155px;
+        } 
+        div { 
+            z-index: 3;
+            margin-left: 23%;
+            width: 73%;
+            min-width: 275px;
+        }
+        h3 { 
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: 0.06em;
+            font-weight: 600;
+            color: #000000;
+        }
+        p { 
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.06em;
+            color: #000;
+            margin: 0;
+    
+        }
+    }
+    
+}
